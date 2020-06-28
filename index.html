@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <header class="header">
+              <div class="bg wallpaper clouds"></div>
+              <div class="title">
+              <h1>WEATHER FINDER</h1>
+              <h3>Find out temperature, conditons and more</h3>
+            </div>
+      </header>
+      <div class="main">
+        <div class="searchBox">
+                <section class="section-a">
+                  <form class="form">
+                      <input type="text" class="search-bar" id="search_term" name="city" />
+                      <button class="search-icon"><img src="images/search.svg" /></button>
+                  </form>
+                </section>
+                <p class="error show"></p>
+                <section class="section-b show">
+                    <div class="date-box"> 
+                    <p>Today,&nbsp</p><span>
+                    <p class="date"></p>
+                </section>     
+         </div>
+              <section class="section-c show">
+                <div class="content-wrap">
+                  <div class="weather-display show">
+                      <div class="inf show"></div>
+                       <div class="box1">
+                          <p class="place"></p>
+                          <span class="country"></span>
+                       </div>
+                      <div class="box2">
+                              <h3>Temperature:</h3>
+                              <p class="temp"></p>
+                      </div>
+                      <div class="box3">
+                              <h3>Humidity:</h3>
+                              <p class="humidity"></p>
+                      </div>
+                      <div class="box4">
+                              <p class="conditions line"></p>
+                              <span class="weather-icon"></span>
+                            </div>
+                          </div>
+                        </div>
+              </section>
+       </div>
+       </div>
+        <script src="scipt.js"></script>
+      </div>
+    </div>
+    <script>
+      function activatePlacesSearch() {
+        var input = document.getElementById("search_term");
+        var autocomplete = new google.maps.places.Autocomplete(input);
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr9SUiX-79dkq-U5UgIzmT0ovKiF5rUKY&libraries=places&callback=activatePlacesSearch"
+    ></script>
+  </body>
+</html>
