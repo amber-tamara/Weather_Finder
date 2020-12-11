@@ -5,11 +5,11 @@
   font-weight: 700;
   src: url(../../src/library/fonts/font_files/rubik-v11-latin-700.eot); /* IE9 Compat Modes */
   src: local(''),
-       url(../src/library/fonts/font_files/rubik-v11-latin-700.eot?#iefix) format('embedded-opentype'), 
-       url(../src/library/fonts/font_files/rubik-v11-latin-700.woff2) format('woff2'), 
-       url(../src/library/fonts/font_files/rubik-v11-latin-700.woff) format('woff'), 
-       url(../src/library/fonts/font_files/rubik-v11-latin-700.ttf) format('truetype'), 
-       url(../src/library/fonts/font_files/rubik-v11-latin-700.svg#Rubik) format('svg'); /* Legacy iOS */
+       url(../../src/library/fonts/font_files/rubik-v11-latin-700.eot?#iefix) format('embedded-opentype'), 
+       url(../../src/library/fonts/font_files/rubik-v11-latin-700.woff2) format('woff2'), 
+       url(../../src/library/fonts/font_files/rubik-v11-latin-700.woff) format('woff'), 
+       url(../../src/library/fonts/font_files/rubik-v11-latin-700.ttf) format('truetype'), 
+       url(../../src/library/fonts/font_files/rubik-v11-latin-700.svg#Rubik) format('svg'); /* Legacy iOS */
   font-display: swap
 }
 
@@ -18,13 +18,13 @@
   font-family: 'Hind Siliguri';
   font-style: normal;
   font-weight: 400;
-  src: url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.eot); /* IE9 Compat Modes */
+  src: url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.eot); /* IE9 Compat Modes */
   src: local(''),
-       url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.eot?#iefix) format('embedded-opentype'), 
-       url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.woff2) format('woff2'), 
-       url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.woff) format('woff'), 
-       url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.ttf) format('truetype'), 
-       url(../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.svg#HindSiliguri) format('svg'); /* Legacy iOS */
+       url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.eot?#iefix) format('embedded-opentype'), 
+       url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.woff2) format('woff2'), 
+       url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.woff) format('woff'), 
+       url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.ttf) format('truetype'), 
+       url(../../src/library/fonts/font_files/hind-siliguri-v7-latin-regular.svg#HindSiliguri) format('svg'); /* Legacy iOS */
        font-display: swap     
 }
 
@@ -101,7 +101,6 @@ background styles
 
 .thunder {
   background-image: url(../../src/img/thunder.jpg); }
-
 
 /*====================
 header styles
