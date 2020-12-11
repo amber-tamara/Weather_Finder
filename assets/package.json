@@ -1,19 +1,16 @@
 {
-  "name": "icn",
+  "name": "weather-website",
   "version": "1.0.0",
-  "description": "ICN theme packages",
+  "description": "",
   "main": "main.js",
   "scripts": {
     "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
     "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
     "clean": "rm -rf build/*",
-    "deploy": "gh-pages -d assets"
+    "deploy": "gh-pages -d build"
   },
-  "keywords": [
-    "wordpress",
-    "themes"
-  ],
-  "author": "Seoworks webteam",
+  "keywords": [],
+  "author": "Amber Jansen",
   "license": "MIT",
   "homepage": "https://amber-tamara.github.io/weather-site",
   "devDependencies": {
