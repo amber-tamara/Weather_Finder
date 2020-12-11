@@ -470,6 +470,7 @@ function getWeather(e) {
 function paintWeather(data) {
   const description = data.weather[0].description;
   const temp = data.main.temp;
+  const roundedTemp = temp > 5 ? Math.ceil(temp) : Math.floor(temp)
   const placeName = data.name;
   const count = data.sys.country;
   search.value = "";
@@ -478,12 +479,11 @@ function paintWeather(data) {
   locationIcon.innerHTML = `<img class="icon" src="icons/${icon}.png">`;
   const weatherInformation = {
     description,
-    temp,
+    roundedTemp,
     placeName,
     count
   }
   info(weatherInformation);
-  wallpaper(weatherInformation);
 }
 
 function errorMessage() {
@@ -491,45 +491,12 @@ function errorMessage() {
   errorMsg.classList.remove("show");
 }
 
-const bgImage = document.querySelector(".wallpaper");
-
-function wallpaper(weatherInformation) {
-  console.log(weatherInformation)
-  if (
-    weatherInformation.description === "few clouds" ||
-    weatherInformation.description === "broken clouds" ||
-    weatherInformation.description === "scattered clouds"
-  ) {
-    bgImage.classList.add("few-clouds");
-    bgImage.classList.remove("clouds");
-    bgImage.classList.remove("clear");
-    bgImage.classList.remove("rain");
-  } else if (weatherInformation.description === "clear sky") {
-    bgImage.classList.remove("few-clouds");
-    bgImage.classList.remove("clouds");
-    bgImage.classList.add("clear");
-  } else if (weatherInformation.description === "rain" || weatherInformation.description === "light rain") {
-    bgImage.classList.remove("clouds");
-    bgImage.classList.remove("clear");
-    bgImage.classList.remove("few-clouds");
-    bgImage.classList.add("rain");
-  } else if (weatherInformation.description === "thunderstorm") {
-    bgImage.classList.remove("clouds");
-    bgImage.classList.remove("clear");
-    bgImage.classList.remove("few-clouds");
-    bgImage.classList.remove("rain");
-    bgImage.classList.add("thunderstorm");
-  }
-}
-
-
 function info(weatherInformation) {
   errorMsg.classList.add("show");
   mainBox.classList.remove("show");
   place.innerHTML = weatherInformation.placeName += ",&nbsp;";
-  tempa.innerHTML = weatherInformation.temp += "°C";
+  tempa.innerHTML = weatherInformation.roundedTemp += "°C";
   country.innerHTML = weatherInformation.count;
-  // humiditi.innerHTML = humidity += "%";
   conditions.innerHTML = weatherInformation.description;
 }
 

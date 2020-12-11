@@ -304,6 +304,20 @@ media queries
   }
 }
 
+@media (max-width: 896px)
+{
+  .weather-display {
+    flex-wrap: nowrap;
+  }
+  .content-wrapper {
+    padding: 25px;
+  }
+  .weatherIcon-box {
+    padding-right: 25px;
+  }
+}
+
+
 @media (max-width: 497.5px) {
   .place-box {
     -webkit-box-pack: center;
