@@ -7,7 +7,7 @@
     "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
     "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
     "clean": "rm -rf build/*",
-    "deplot": "gh-pages -d assets"
+    "deploy": "gh-pages -d assets"
   },
   "keywords": [
     "wordpress",
