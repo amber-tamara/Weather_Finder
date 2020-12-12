@@ -94,27 +94,9 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./background.png": "./src/img/background.png",
 	"./background_1028.png": "./src/img/background_1028.png",
-	"./clear.jpg": "./src/img/clear.jpg",
-	"./clouds.jpg": "./src/img/clouds.jpg",
-	"./few-clouds.jpg": "./src/img/few-clouds.jpg",
-	"./landscape-photograph-of-skies-912364.jpg": "./src/img/landscape-photograph-of-skies-912364.jpg",
-	"./mobileSunSet.png": "./src/img/mobileSunSet.png",
-	"./mobileSunSet.webp": "./src/img/mobileSunSet.webp",
-	"./mobileSunSet10.png": "./src/img/mobileSunSet10.png",
-	"./mobileSunSet10.webp": "./src/img/mobileSunSet10.webp",
 	"./mobileSunSet20_500_1000.webp": "./src/img/mobileSunSet20_500_1000.webp",
-	"./mobileSunSetx2.png": "./src/img/mobileSunSetx2.png",
-	"./rain.jpg": "./src/img/rain.jpg",
-	"./search.svg": "./src/img/search.svg",
-	"./sunset-img.webp": "./src/img/sunset-img.webp",
-	"./sunset-img_1280_720.webp": "./src/img/sunset-img_1280_720.webp",
-	"./sunset.webp": "./src/img/sunset.webp",
-	"./sunsetx2.webp": "./src/img/sunsetx2.webp",
-	"./sunsetx3.webp": "./src/img/sunsetx3.webp",
-	"./sunsetx4.webp": "./src/img/sunsetx4.webp",
-	"./thunder.jpg": "./src/img/thunder.jpg"
+	"./search.svg": "./src/img/search.svg"
 };
 
 
@@ -139,19 +121,6 @@ webpackContext.id = "./src/img sync \\.(png|jpe?g|svg|webp)$";
 
 /***/ }),
 
-/***/ "./src/img/background.png":
-/*!********************************!*\
-  !*** ./src/img/background.png ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/background.png");
-
-/***/ }),
-
 /***/ "./src/img/background_1028.png":
 /*!*************************************!*\
   !*** ./src/img/background_1028.png ***!
@@ -162,110 +131,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("../../src/img/background_1028.png");
-
-/***/ }),
-
-/***/ "./src/img/clear.jpg":
-/*!***************************!*\
-  !*** ./src/img/clear.jpg ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/clear.jpg");
-
-/***/ }),
-
-/***/ "./src/img/clouds.jpg":
-/*!****************************!*\
-  !*** ./src/img/clouds.jpg ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/clouds.jpg");
-
-/***/ }),
-
-/***/ "./src/img/few-clouds.jpg":
-/*!********************************!*\
-  !*** ./src/img/few-clouds.jpg ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/few-clouds.jpg");
-
-/***/ }),
-
-/***/ "./src/img/landscape-photograph-of-skies-912364.jpg":
-/*!**********************************************************!*\
-  !*** ./src/img/landscape-photograph-of-skies-912364.jpg ***!
-  \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/landscape-photograph-of-skies-912364.jpg");
-
-/***/ }),
-
-/***/ "./src/img/mobileSunSet.png":
-/*!**********************************!*\
-  !*** ./src/img/mobileSunSet.png ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/mobileSunSet.png");
-
-/***/ }),
-
-/***/ "./src/img/mobileSunSet.webp":
-/*!***********************************!*\
-  !*** ./src/img/mobileSunSet.webp ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/mobileSunSet.webp");
-
-/***/ }),
-
-/***/ "./src/img/mobileSunSet10.png":
-/*!************************************!*\
-  !*** ./src/img/mobileSunSet10.png ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/mobileSunSet10.png");
-
-/***/ }),
-
-/***/ "./src/img/mobileSunSet10.webp":
-/*!*************************************!*\
-  !*** ./src/img/mobileSunSet10.webp ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/mobileSunSet10.webp");
 
 /***/ }),
 
@@ -282,32 +147,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/mobileSunSetx2.png":
-/*!************************************!*\
-  !*** ./src/img/mobileSunSetx2.png ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/mobileSunSetx2.png");
-
-/***/ }),
-
-/***/ "./src/img/rain.jpg":
-/*!**************************!*\
-  !*** ./src/img/rain.jpg ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/rain.jpg");
-
-/***/ }),
-
 /***/ "./src/img/search.svg":
 /*!****************************!*\
   !*** ./src/img/search.svg ***!
@@ -321,109 +160,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/sunset-img.webp":
-/*!*********************************!*\
-  !*** ./src/img/sunset-img.webp ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunset-img.webp");
-
-/***/ }),
-
-/***/ "./src/img/sunset-img_1280_720.webp":
-/*!******************************************!*\
-  !*** ./src/img/sunset-img_1280_720.webp ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunset-img_1280_720.webp");
-
-/***/ }),
-
-/***/ "./src/img/sunset.webp":
-/*!*****************************!*\
-  !*** ./src/img/sunset.webp ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunset.webp");
-
-/***/ }),
-
-/***/ "./src/img/sunsetx2.webp":
-/*!*******************************!*\
-  !*** ./src/img/sunsetx2.webp ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunsetx2.webp");
-
-/***/ }),
-
-/***/ "./src/img/sunsetx3.webp":
-/*!*******************************!*\
-  !*** ./src/img/sunsetx3.webp ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunsetx3.webp");
-
-/***/ }),
-
-/***/ "./src/img/sunsetx4.webp":
-/*!*******************************!*\
-  !*** ./src/img/sunsetx4.webp ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/sunsetx4.webp");
-
-/***/ }),
-
-/***/ "./src/img/thunder.jpg":
-/*!*****************************!*\
-  !*** ./src/img/thunder.jpg ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("../../src/img/thunder.jpg");
-
-/***/ }),
-
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/style.scss */ "./src/sass/style.scss");
-/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_0__);
-
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 function importAll(r) {
   let images = {};
@@ -499,17 +241,6 @@ function info(weatherInformation) {
   country.innerHTML = weatherInformation.count;
   conditions.innerHTML = weatherInformation.description;
 }
-
-/***/ }),
-
-/***/ "./src/sass/style.scss":
-/*!*****************************!*\
-  !*** ./src/sass/style.scss ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ })
 
