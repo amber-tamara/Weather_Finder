@@ -1,1 +1,1 @@
-export default "../../src/img/search.svg";
+export default "../src/img/search.svg";

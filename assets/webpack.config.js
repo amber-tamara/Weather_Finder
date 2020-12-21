@@ -42,7 +42,7 @@ const plugins = argv => [
   new CopyPlugin({
     patterns: [{ from: LIB_DIR, to: BUILD_DIR + "/library" }]
   }),
-  
+
   new webpack.LoaderOptionsPlugin({
     options: {
       postcss: [
@@ -63,11 +63,11 @@ const rules = [
     test: /\.scss$/,
     exclude: /node_modules/,
     use: [
-      MiniCssExtractPlugin.loader, 
-      "css-loader", 
-      "postcss-loader", 
+      MiniCssExtractPlugin.loader,
+      "css-loader",
+      "postcss-loader",
       "sass-loader"
-      ]
+    ]
   },
   {
     test: /\.(png|jpg|svg|jpeg|gif|ico|webp)$/,
@@ -134,7 +134,7 @@ module.exports = (env, argv) => ({
 
   plugins: plugins(argv),
 
-  externals: {
-    jquery: "jQuery"
-  }
+  // externals: {
+  //   jquery: "jQuery"
+  // }
 });

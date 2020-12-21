@@ -1,0 +1,336 @@
+  /*====================
+           CSS
+  ======================*/
+  @import url("../src/library/fonts/fonts.css");
+
+  label[for="search-bar"] {
+  font-family: 'Hind Siliguri', Tahoma, Geneva, Verdana, sans-serif; 
+  margin-bottom: 5px;
+  }
+
+  h1{
+  font-family: 'Rubik', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p {
+  font-family: 'Hind Siliguri', Tahoma, Geneva, Verdana, sans-serif;  
+  }
+
+  .main_title {
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  }
+
+  img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  }
+
+  picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  }
+
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+  body, html { overflow-x:hidden; 
+  overflow-y: hidden;}
+
+  html {
+  height: 100%;
+  }
+
+  body {
+  height: 100%;
+  margin: 0;
+  }
+
+  /*====================
+  background styles
+  ======================*/
+
+  .background {
+  height: 80%;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+  }
+
+
+  /*====================
+  header styles
+  ======================*/
+
+  h1 {
+  color: rgba(0, 0, 0, 0.767);
+  margin: 0;
+  text-align: center;
+  color: #0b0d0e;
+  padding: 20px;
+  }
+
+  .header h3,
+  .weather-display {
+  color:#E8E8E8;
+  margin: 0;
+  }
+
+  .header{
+  background-color: #0B3954;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  }
+
+  .header-wrapper {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  }
+
+  .title-box {
+  padding: 5px;
+  }
+
+  .date-wrapper {
+  display: flex;
+  }
+
+  .date-box {
+  color: #e8e8e8;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  }
+
+  /*====================
+  search bar styles
+  ======================*/
+
+  .search-bar-wrapper {
+  display: flex;
+  }
+
+  .search-icon {
+  height: 30px;
+  width: 30px;
+  }
+
+  .search-button {
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-left: 1px solid #0B3954;
+  background-color: #748CAB;
+  transition: 0.25s ease-in-out;
+  align-self: flex-end;
+  }
+  
+  .search-button:hover {
+  border: 1px solid #748CAB;
+  background-color: whitesmoke;
+  }
+
+  .search-bar {
+  padding: 13.5px;
+  width: 400px;
+  }
+
+  /*====================
+  content wrapper styles
+  ======================*/
+
+  .content-wrapper {
+  padding: 10px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+
+  .main-section {
+  z-index: 100;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  /*====================
+  content styles
+  =======================*/
+
+  .place-box {
+  display: flex;
+  }
+
+  .place {
+  text-align: left;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  }
+
+  .section-a {
+  padding-top: 10px;
+  }
+
+  .form {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  padding: 5px 5px 30px 5px;
+  }
+
+  .main {
+  max-width: 400px;
+  margin: auto;
+  }
+
+  .error {
+  color: red;
+  text-align: left;
+  }
+
+  .temp {
+  color: #e8e8e8;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: left;
+  }
+
+  .conditions {
+  text-align: left;
+  color: #e8e8e8;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  }
+
+  .country {
+  color: #e8e8e8;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+  }
+
+  .show {
+  display: none;
+  }
+
+  .weather-display {
+  z-index: 10;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  min-height: 261px;
+  max-width: 500px;
+  background: linear-gradient(to top right, #0B3954, #2E86AB);
+  }
+
+  label {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  }
+
+  p {
+  color: #E8E8E8;
+  }
+
+  /*====================
+  media queries
+  ======================*/
+
+  @media(max-width: 375.5px) {
+  .main-section {
+  top: 72%;
+  }
+  }
+
+
+  @media(max-width:286px) {
+  .header {
+  height: 300px;
+  }
+  }
+
+  @media(max-width: 466px) {
+  .search-bar {
+  width: 250px;
+  }
+  }
+
+  @media(max-width: 300px) {
+  .search-bar {
+  width: 200px;
+  }
+  }
+  @media(max-width: 346px) {
+  .content-wrapper {
+  min-width: 200px;
+  }
+  }
+
+  @media(max-width: 346px){
+  .main-section{
+  width: 90%;
+  }
+  }
+
+  @media(max-width: 895.5px){
+  .place-box{
+  justify-content: center;
+  }
+  .temp {
+  text-align: center;
+  }
+  .conditions {
+  text-align: center;
+  }
+  .place {
+  text-align: center;
+  }
+  .content-wrapper {
+  justify-content: space-around;
+  }
+  } 
+
+  .search-bar-container {
+  display: flex;
+  flex-direction: column;
+  }
+  @media (min-width: 896px)
+  {
+  .header {
+  height: 190px;
+  }
+  .weather-display {
+  flex-wrap: nowrap;
+  }
+  .content-wrapper {
+  padding: 25px;
+  }
+  .weatherIcon-box {
+  padding-right: 25px;
+  }
+  }

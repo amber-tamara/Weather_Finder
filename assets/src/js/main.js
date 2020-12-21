@@ -1,24 +1,16 @@
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  return images;
-}
-
-const images = importAll(require.context('../img', false, /\.(png|jpe?g|svg|webp)$/));
-
-
+import "../style.scss"
+import "../img/background_1028.png";
+import "../img/mobileSunSet20_500_1000.webp";
+import "../img/search.svg";
 
 const country = document.querySelector(".country");
 const tempa = document.querySelector(".temp");
-const humiditi = document.querySelector(".humidity");
 const conditions = document.querySelector(".conditions");
-const weather = document.querySelector(".weather-display");
 const mainBox = document.querySelector(".main-section");
 const search = document.querySelector(".search-bar");
 const form = document.querySelector(".form");
 const place = document.querySelector(".place");
 const errorMsg = document.querySelector(".error");
-let date = document.querySelector(".date");
 
 form.addEventListener("submit", getWeather);
 
@@ -43,7 +35,7 @@ function getWeather(e) {
 function paintWeather(data) {
   const description = data.weather[0].description;
   const temp = data.main.temp;
-  const roundedTemp = temp > 5 ? Math.ceil(temp) : Math.floor(temp)
+  const roundedTemp = temp > 5 ? Math.ceil(temp) : Math.floor(temp);
   const placeName = data.name;
   const count = data.sys.country;
   search.value = "";
